@@ -23,6 +23,9 @@
 // }
 
 //变量提升
-console.log(a)
+console.log(a)   // undefined
 var a = 1
 
+
+console.log(b)  //ReferenceError: Cannot access 'b' before initialization
+let b = 2
